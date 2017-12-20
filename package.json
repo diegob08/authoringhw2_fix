@@ -1,0 +1,25 @@
+{
+  "name": "testgrunt",
+  "version": "1.0.0",
+  "description": "test grunt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "grunt test automation"
+  },
+  "keywords": [
+    "testgrunt"
+  ],
+  "author": "MIT",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
